@@ -4,7 +4,6 @@ import logo from './logo.svg';
 import './App.css';
 
 // components and containers
-import PostItem from './components/post';
 import AlphabetGroup from './containers/alphabet_group';
 
 // utils
@@ -43,7 +42,7 @@ class App extends Component {
       for (let i = 0; i < array.length; i++)
       {
         let firstChar = array[i][propertyName].charAt(0);
-        if (groupedCollection[firstChar] == undefined)
+        if (groupedCollection[firstChar] === undefined)
         {
           groupedCollection[firstChar] = [];
         }
