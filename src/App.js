@@ -55,6 +55,7 @@ class App extends Component {
     {
       PostItems = [];
       Posts = [];
+      // eslint-disable-next-line
       Object.keys(posts).map(postKey =>
       {
         Posts.push(posts[postKey])

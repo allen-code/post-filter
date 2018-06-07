@@ -1,6 +1,6 @@
 import React from 'react';
 import Modal from 'react-modal';
-import PostItem from './post';
+// import PostItem from './post';
 
 const PostModal = (props) => {
     
