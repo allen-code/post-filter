@@ -5,6 +5,7 @@ cache:
   directories:
   - node_modules
 script:
+  - rm -rf node_modules/
   - npm install
   - npm test
   - npm run build
